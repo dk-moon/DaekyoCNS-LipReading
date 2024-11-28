@@ -1,0 +1,10 @@
+defaults:
+  - _self_  # 현재 구성 파일을 기본 순서에 포함
+
+preprocess:
+  json_folder: "./sample_data/json"  # JSON 파일 폴더 경로
+  wav_folder: "./sample_data/wav"    # WAV 파일 폴더 경로
+  mp4_folder: "./sample_data/mp4"    # MP4 파일 폴더 경로
+  label_folder: "./output/label"     # 텍스트 라벨 파일 저장 경로
+  audio_folder: "./output/audio"     # 오디오 파일 저장 경로
+  audiovisual_folder: "./output/audiovisual"  # 비디오 파일 저장 경로

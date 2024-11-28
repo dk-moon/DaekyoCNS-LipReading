@@ -1,6 +1,11 @@
 .DS_Store
+
 *.json
 *.wav
 *.mp4
 *.csv
 *.txt
+*.label
+*.log
+
+*.pyc
